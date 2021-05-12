@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pkbhowmick.just_grpc;
+
+option go_package = "github.com/pkbhowmick/just-grpc/proto";
+
+message Keyboard {
+  enum Layout {
+    LAYOUT_UNKNOWN = 0;
+    LAYOUT_QWERTY = 1;
+    LAYOUT_QWERTZ = 2;
+    LAYOUT_AZERTY = 3;
+  }
+
+  Layout layout = 1;
+  bool backlit = 2;
+}

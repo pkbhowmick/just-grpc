@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package pkbhowmick.just_grpc.proto;
+package pkbhowmick.just_grpc;
 
 option go_package = "github.com/pkbhowmick/just-grpc/proto";
 

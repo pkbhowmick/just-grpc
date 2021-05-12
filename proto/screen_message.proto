@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package pkbhowmick.just_grpc;
+
+option go_package = "github.com/pkbhowmick/just-grpc/proto";
+
+message Screen {
+  message Resolution {
+    uint32 width  = 1;
+    uint32 height = 2;
+  }
+
+  enum Panel {
+    PANEL_UNKNOWN = 0;
+    PANEL_IPS = 1;
+    PANEL_OLED = 2;
+  }
+
+  float size_inch = 1;
+  Resolution resolution = 2;
+  Panel panel = 3;
+  bool multi_touch = 4;
+}
