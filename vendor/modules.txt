@@ -1,6 +1,13 @@
 # github.com/golang/protobuf v1.5.0
 ## explicit
+github.com/golang/protobuf/proto
+github.com/golang/protobuf/ptypes
+github.com/golang/protobuf/ptypes/any
+github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
+# github.com/google/uuid v1.2.0
+## explicit
+github.com/google/uuid
 # google.golang.org/protobuf v1.26.0
 ## explicit
 google.golang.org/protobuf/encoding/prototext
@@ -24,8 +31,12 @@ google.golang.org/protobuf/internal/set
 google.golang.org/protobuf/internal/strs
 google.golang.org/protobuf/internal/version
 google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protodesc
 google.golang.org/protobuf/reflect/protoreflect
 google.golang.org/protobuf/reflect/protoregistry
 google.golang.org/protobuf/runtime/protoiface
 google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
 google.golang.org/protobuf/types/known/timestamppb
