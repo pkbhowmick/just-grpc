@@ -1,0 +1,62 @@
+{
+  "id": "d6667acc-5146-43f6-91e2-f8d21cba7201",
+  "name": "Ultrabook",
+  "brand": "Dell",
+  "cpu": {
+    "brand": "AMD",
+    "name": "Ryzen 3500H",
+    "number_cores": 3,
+    "number_threads": 9,
+    "min_ghz": 3.3687259615650476,
+    "max_ghz": 4.472729523096834
+  },
+  "gpu": [
+    {
+      "brand": "NVIDIA",
+      "name": "GTX 1650 SUPER",
+      "min_ghz": 0.9847873714979346,
+      "max_ghz": 1.1987376414708804,
+      "memory": {
+        "value": "22",
+        "unit": "UNIT_GIGABYTE"
+      }
+    }
+  ],
+  "memory": {
+    "value": "21",
+    "unit": "UNIT_GIGABYTE"
+  },
+  "storage": [
+    {
+      "driver": "DRIVER_HDD",
+      "memory": {
+        "value": "1",
+        "unit": "UNIT_TERABYTE"
+      }
+    },
+    {
+      "driver": "DRIVER_SSD",
+      "memory": {
+        "value": "338",
+        "unit": "UNIT_GIGABYTE"
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 27.69831,
+    "resolution": {
+      "width": 16,
+      "height": 28
+    },
+    "panel": "PANEL_IPS",
+    "multi_touch": true
+  },
+  "keyboard": {
+    "layout": "LAYOUT_QWERTY",
+    "backlit": false
+  },
+  "weight_kg": 2.296813123352677,
+  "price_bdt": 101956.4291571547,
+  "released_year": 2017,
+  "updated_at": "2021-05-12T15:29:26.626718684Z"
+}

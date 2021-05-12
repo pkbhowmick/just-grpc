@@ -46,11 +46,11 @@ func randomCPUName(brand string) string {
 }
 
 func randomInt(min int, max int) int {
-	return min + rand.Intn(max - min)
+	return min + rand.Intn(max-min)
 }
 
 func randomFloat(min float64, max float64) float64 {
-	return max - min * rand.Float64()
+	return max - min*rand.Float64()
 }
 
 func randomGPUName(brand string) string {
@@ -68,6 +68,3 @@ func randomBool() bool {
 	n := rand.Intn(2)
 	return n == 1
 }
-
-
-
