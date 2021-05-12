@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package pkbhowmick.just_grpc.proto;
+
+option go_package = "github.com/pkbhowmick/just-grpc/proto";
+
+import "proto/memory_message.proto";
+
+message Storage {
+  enum Driver {
+    DRIVER_UNKNOWN = 0;
+    DRIVER_SSD = 1;
+    DRIVER_HDD = 2;
+  }
+
+  Driver driver = 1;
+  Memory memory = 2;
+}
