@@ -11,6 +11,9 @@ github.com/golang/protobuf/ptypes/timestamp
 # github.com/google/uuid v1.2.0
 ## explicit
 github.com/google/uuid
+# github.com/jinzhu/copier v0.3.0
+## explicit
+github.com/jinzhu/copier
 # github.com/pmezard/go-difflib v1.0.0
 github.com/pmezard/go-difflib/difflib
 # github.com/stretchr/testify v1.7.0
