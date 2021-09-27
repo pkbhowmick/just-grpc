@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ecommerce.v1;
+option go_package = "github.com/pkbhowmick/just-grpc/server_streaming";
+
+import "google/protobuf/wrappers.proto";
+
+service OrderManagement {
+  rpc searchOrders(google.protobuf.StringValue) returns (stream Order);
+  rpc addOrder(Order) returns (google.protobuf.StringValue);
+}
+
+message Order {
+  string id = 1;
+  repeated string items = 2;
+  float price = 3;
+  string destination = 4;
+}
+
+
